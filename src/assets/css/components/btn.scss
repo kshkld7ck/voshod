@@ -1,0 +1,22 @@
+.btn {
+    padding: 10px 45px 12px 45px;
+    border-radius: 4px;
+    font-size: 22.3px;
+    line-height: 1.2;
+    font-weight: 500;
+    border: none;
+    transition: 0.2s;
+    &_primary {
+        // background: linear-gradient(to right, rgb(0, 133, 228), rgb(0, 205, 223));
+        background: linear-gradient(to right, rgb(74, 116, 43), rgb(187, 255, 55));
+        // background: linear-gradient(red, orange, yellow, green, blue);
+        color: #fff;
+        &:hover {
+            background: linear-gradient(to right, rgb(74, 116, 63), rgb(187, 255, 75));
+            color: #fff;
+        }
+    }
+    &:hover {
+        filter: brightness(90%);
+    }
+}

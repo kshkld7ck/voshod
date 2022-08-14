@@ -1,0 +1,43 @@
+.about {
+    padding: 200px 0px 100px 0px;
+    .about__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    h3 {
+        font-size: 42px;
+        line-height: 1.4;
+        color: #fff;
+        text-align: left;
+    }
+    p {
+        font-size: 20px;
+        line-height: 1.4;
+        color: #fff;
+        text-align: left;
+    }
+    span.hr {}
+    background: url("../../../assets/images/network.svg");
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: relative;
+    // &:before {
+    //     content: "";
+    //     position: absolute;
+    //     left: 0;
+    //     top: 0;
+    //     width: 100%;
+    //     height: 100%;
+    //     z-index: -1;
+    //     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.98));
+    // }
+}
+
+.about {
+    @media (max-width: 768px) {
+        padding: 50px 0px 50px 0px;
+    }
+}
