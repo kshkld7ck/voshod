@@ -33,6 +33,8 @@
         .services__item-image {
             width: 100%;
             max-width: 450px;
+            max-height: 300px;
+            object-fit: cover;
             border-radius: 8px;
         }
         .services__item-text {
@@ -48,12 +50,12 @@
                 margin-right: 40px;
             }
         }
-        &:nth-child(2) {
-            background: rgba(0, 0, 0, 0.5);
-        }
-        &:nth-child(3) {
-            background: rgba(0, 0, 0, 0.6);
-        }
+        // &:nth-child(2) {
+        //     background: rgba(0, 0, 0, 0.5);
+        // }
+        // &:nth-child(3) {
+        //     background: rgba(0, 0, 0, 0.6);
+        // }
         &:nth-child(even) {
             // justify-content: flex-end;
             flex-direction: row-reverse;

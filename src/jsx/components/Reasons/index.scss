@@ -61,6 +61,9 @@
     }
     @media (max-width: 991px) {
         padding: 50px 0px;
+        h5 {
+            font-size: 18px;
+        }
         .reasons__row {
             display: flex;
             flex-direction: column;

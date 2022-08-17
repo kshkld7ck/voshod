@@ -13,7 +13,7 @@ function Header(props) {
                     <div className="header__nav">
                         <a className="header__link" onClick={() => setShow(false)} href="#about">О нас</a>
                         <a className="header__link" onClick={() => setShow(false)} href="#reasons">Почему мы</a>
-                        <a className="header__link" onClick={() => setShow(false)} href="#services">Сервисы</a>
+                        <a className="header__link" onClick={() => setShow(false)} href="#services">Наши услуги</a>
 
                         <a href="#contacts" className="btn btn_primary" onClick={() => setShow(false)}>Контакты</a>
                     </div>

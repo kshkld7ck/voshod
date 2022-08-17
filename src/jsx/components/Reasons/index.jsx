@@ -1,15 +1,15 @@
 import React from 'react';
 import './index.scss';
-import Pic1 from '../../../assets/images/set.svg'
+import Pic1 from '../../../assets/images/ten.svg'
 import Pic2 from '../../../assets/images/user.svg'
-import Pic3 from '../../../assets/images/magic.svg'
+import Pic3 from '../../../assets/images/team.svg'
 function Reasons() {
     return <section id="reasons" className="reasons">
         <div className="container">
             <div className="reasons__content">
-                <h3>Why Choose Us?</h3>
+                <h3>Почему безопасность доверяют нам?</h3>
                 <span className="hr"></span>
-                <h5>We will provide you with the best services based on our significant industry experience.</h5>
+                <h5>Мы не просто занимаемся коммерческим пентестом, мы вырабатываем новые техники тестирования и помогаем в реализации защиты.</h5>
 
                 <div className="reasons__row">
                     <div className="reasons__card">
@@ -17,9 +17,11 @@ function Reasons() {
                             <img src={Pic1} alt="" />
                         </div>
 
-                        <div className="reasons__card-title">10 years of work</div>
+                        <div className="reasons__card-title">Более 10 лет опыта</div>
                         <p className="reasons__card-description">
-                            We have established ourselves as professionals in our field, working with both small and well-known brands.
+                        Более 10 лет опыта в кибербезопасности по всему миру.
+Использование собственного программного обеспечения и собственных инструментов.
+Только Red Team.
                         </p>
                     </div>
                     <div className="reasons__card">
@@ -27,18 +29,18 @@ function Reasons() {
                             <img src={Pic2} alt="" />
                         </div>
 
-                        <div className="reasons__card-title">Individual approach</div>
+                        <div className="reasons__card-title">Индивидуальный подход</div>
                         <p className="reasons__card-description">
-                            Every company has its conception and motto. We work to develop unique products.
+                        Проверка безопасности проходит максимально осторожно и никогда не нарушает работу инфраструктуры.
                        </p>
                     </div>
                     <div className="reasons__card">
                         <div className="reasons__card-icon">
                             <img src={Pic3} alt="" />
                         </div>
-                        <div className="reasons__card-title">We grow for the future</div>
+                        <div className="reasons__card-title">Постоянная команда</div>
                         <p className="reasons__card-description">
-                            Highly skilled professionals will help your business grow on par with the new technologies.
+                        Сильнейшая команда программистов, реверс инженеров, специалистов по кибер безопасности.
                         </p>
                     </div>
 

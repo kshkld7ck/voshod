@@ -1,31 +1,51 @@
 import React from 'react';
 import './index.scss';
-
+import Service1 from '../../../assets/images/service1.jpg'
+import Service2 from '../../../assets/images/service2.jpg'
+import Service3 from '../../../assets/images/service3.jpg'
+import Service4 from '../../../assets/images/service4.jpg'
+import Service5 from '../../../assets/images/service5.jpg'
+import Service6 from '../../../assets/images/service6.jpg'
 function Services() {
 
     const servicesList = [
         {
-            image: "https://thumb.tildacdn.com/tild6230-3330-4864-a663-373862393338/-/cover/560x420/center/center/-/format/webp/25798280315_b302b51e4f_k.jpg",
+            image: Service1,
             title: "Тестирование \nкорпоративных сетей",
-            text: "We develop the main conception of a company according to its targets and develop strategies to gain a competitive advantage."
+            text: "Анализ защищенности внутреннего периметра корпоративной сети.\nПроекрка работы АВ решений и попытка обхода систем, обеспечивающих безопасность.\nТестирвание может проводится, как из внешней среды, так и изнутри."
         },
         {
-            image: "https://thumb.tildacdn.com/tild3364-6265-4661-b864-343237386631/-/cover/560x420/center/center/-/format/webp/22506109386_e2d8c8a166_k.jpg",
+            image: Service2,
             title: "Тестирование \nбеспроводных сетей",
-            text: "Recruiting is a very important part of the management process. We help create professional portraits and develop ways to train staff."
+            text: "Анализ защищенности беспроводных сетей (wifi роутеры, точки доступа, гостевые сети, инфраструктура до провайдера)."
         },
         {
-            image: "https://thumb.tildacdn.com/tild6438-3934-4463-a533-613833626532/-/cover/560x420/center/center/-/format/webp/1000_25388863844_036b33e2fc_k.jpg",
-            title: "Тестирование \nпрограммного обеспечения",
-            text: "We develop new products, set business processes and timelines, estimate costs, tailor motivation techniques and take care of the documentation process."
+            image: Service3,
+            title: "Тестирование \nWeb приложений и корпоративных порталов",
+            text: "Анализ защищенности Web приложений, почтовых и web серверов, корпоративных облачных хранилищ."
+        },
+        {
+            image: Service4,
+            title: "Тестирование \nмобильных приложений",
+            text: "Анализ защищенности Mobile App, под iOS, Android, Windows."
+        },
+        {
+            image: Service5,
+            title: "Анализ безопасности ПО",
+            text: "Анализ безопасности ПО, путем проведения активного фаззинга и анализа исходного кода."
+        },
+        {
+            image: Service6,
+            title: "Разработка ПО",
+            text: "Наша команда может выполнить разработку программного обеспечения любой сложности, которое будет обеспечивать комплексную зашиту информационных систем."
         },
     ]
     return <section className="services" id="services">
         <div className="container">
             <div className="services__content">
-                <h3>Our Services</h3>
+                <h3>Наши услуги</h3>
                 <span className="hr"></span>
-                <h6>We offer a wide range of services in creative spheres. Here is what we can offer to your company:</h6>
+                {/* <h6>We offer a wide range of services in creative spheres. Here is what we can offer to your company:</h6> */}
                 <div className="services__list">
                     {servicesList.map((el) => {
                         return <div className="services__item">

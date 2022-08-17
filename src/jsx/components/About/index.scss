@@ -39,5 +39,8 @@
 .about {
     @media (max-width: 768px) {
         padding: 50px 0px 50px 0px;
+        p {
+            font-size: 18px;
+        }
     }
 }

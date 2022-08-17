@@ -11,10 +11,10 @@ function Banner() {
             <div className="banner__content">
                 <img src={Logo} className="banner__logo" alt=""/>
                 <h1 className="heading">
-                    Business Consulting
+                Voskhod-Security
                 </h1>
                 <p>
-                    Business consultations and project management for innovative businesses and startups.
+                Безопасность вашей критической инфраструктуры в надежных руках.
                 </p>
             </div>
             <div className="banner__arrow"><a href="#about"><img src={Angle} alt="" /></a></div>

@@ -6,21 +6,25 @@ function Pluses() {
     const items = [
         {
             title: "Clear understanding of a business conception",
-            text: "As part of PR management, our goal is to help you develop in accordance with progressive technologies and ideas, as well as expand your interaction with clients and partners."
+            text: "Соответствие требованиям и рекомендациям регуляторов, которые уделяют значительное внимание информационной безопасности, в том числе в свете закона о критической информационной инфраструктуре (КИИ)"
         },
         {
             title: "Save time and money",
-            text: "You will work with financial consultants and project professionals who will assist you with managing business taxes. It saves a lot of money and helps to avoid costly errors with documents."
+            text: "Эффективный выбор средств защиты и точек их применения в инфраструктуре на основе информации о вероятном пути проникновения потенциального нарушителя и используемых им техниках атаки"
         },
         {
             title: "Productivity elevation",
-            text: "We will help to maximize the productivity of your business. Our professional consultants will understand how to interview potential clients and draw up a complete marketing plan."
+            text: "Снижение затрат на защиту: результаты пентеста позволяют ранжировать недостатки безопасности и направить ресурсы в первую очередь на устранение наиболее опасных угроз (то есть снизить риск компрометации систем и возможные затраты на устранение последствий атак в будущем)"
+        },
+        {
+            title: "Productivity elevation",
+            text: "Репутация компании как гаранта безопасности данных клиентов и партнеров может быть дополнительным преимуществом в бизнесе."
         },
     ]
     return <section className="pluses" id="pluses">
         <div className="container">
             <div className="pluses__content">
-                <h3>What Will You Get?</h3>
+                <h3>Что дает тестирование безопасности?</h3>
                 <span className="hr"></span>
 
                 <div className="pluses__list">
@@ -29,7 +33,7 @@ function Pluses() {
                             <img src={Check} alt="" className="pluses__icon" />
 
                             <div className="pluses__item-info">
-                                <div className="pluses__item-title">{el.title}</div>
+                                {/* <div className="pluses__item-title">{el.title}</div> */}
                                 <div className="pluses__item-text">{el.text}</div>
                             </div>
                         </div>
